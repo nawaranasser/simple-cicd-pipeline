@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My DevOps Portfolio Site</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .content {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .deployment-info {
+            background: #e8f5e8;
+            border-left: 4px solid #2ecc71;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>🚀 My DevOps Portfolio</h1>
+        <p>Automated CI/CD Pipeline Demo</p>
+    </div>
+    
+    <div class="content">
+        <h2>Welcome to My Site!</h2>
+        <p>This website is automatically deployed using GitHub Actions CI/CD.</p>
+        
+        <div class="deployment-info">
+            <h3>Deployment Status: <span style="color: #2ecc71;">✅ Live</span></h3>
+            <p><strong>Last Deployment:</strong> <span id="deployment-time">Loading...</span></p>
+            <p>This site automatically updates when I push code to GitHub!</p>
+        </div>
+        
+        <h3>Projects:</h3>
+        <ul>
+            <li>✅ Project 1: Automated Website Monitor</li>
+            <li>🔄 Project 2: CI/CD Pipeline (This site!)</li>
+            <li>🔜 Project 3: Dockerized Application</li>
+            <li>🔜 Project 4: Infrastructure as Code</li>
+        </ul>
+    </div>
+
+    <script>
+        // Show current deployment time
+        document.getElementById('deployment-time').textContent = new Date().toLocaleString();
+    </script>
+</body>
+</html>
