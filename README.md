@@ -1,21 +1,21 @@
-# 🚀 How to Build a Simple CI/CD Pipeline for Static Websites
+#  How to Build a Simple CI/CD Pipeline for Static Websites
 
 A step-by-step guide to creating your first CI/CD pipeline that automatically tests and deploys static websites.
 
-## 📖 What You'll Learn
+##  What You'll Learn
 
 - How to set up automated testing with **GitHub Actions**
 - How to deploy static sites to **Vercel**
 - How to create a complete CI/CD workflow
 - DevOps principles in practice
 
-## 🛠️ Prerequisites
+##  Prerequisites
 
 - GitHub account
 - Basic knowledge of HTML
 - Git installed locally
 
-## 🎯 Step-by-Step Implementation
+##  Step-by-Step Implementation
 
 ### Step 1: Create Your Static Website
 
